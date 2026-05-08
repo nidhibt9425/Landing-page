@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Local Bistro | Fresh & Local</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">LocalBistro</div>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><button id="track-btn">Claim USA Offer</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Delicious Food, Delivered to Your County</h1>
+        <p>Select your location to see today's specials.</p>
+        
+        <select id="county-selector">
+            <option value="">Select your County...</option>
+            <option value="los-angeles">Los Angeles County, CA</option>
+            <option value="cook">Cook County, IL</option>
+            <option value="harris">Harris County, TX</option>
+            <option value="maricopa">Maricopa County, AZ</option>
+            <option value="miami-dade">Miami-Dade County, FL</option>
+        </select>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="item"><h3>Classic Burger</h3><p>$12</p></div>
+            <div class="item"><h3>Garden Salad</h3><p>$10</p></div>
+            <div class="item"><h3>Artisan Pizza</h3><p>$15</p></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
